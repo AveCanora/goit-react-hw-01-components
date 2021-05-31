@@ -4,7 +4,7 @@ import defaultImage from "./default.jpg";
 
 const Profile = ({ avatar, name, tag, location, stats }) => (
   <div className="profile">
-    Компонент "Профиль социальной сети"
+    <h1>Компонент "Профиль социальной сети"</h1>
     <div className="description">
       <img
         src={avatar}
