@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 const Statistics = ({ stats, title }) => (
   <section className="statistics">
-    <h1>Профиль социальной сети</h1>
+    <h1>Секция статистики</h1>
     <h2 className="title">{title}</h2>
     <ul className="stat-list">
       {stats.map((stat) => (
