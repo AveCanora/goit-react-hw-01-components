@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import defaultImage from "./default.jpg";
+import defaultImage from "../default.jpg";
 const FriendListItem = ({ avatar, name, isOnline }) => (
   <div>
     <ul className="friend-list">
