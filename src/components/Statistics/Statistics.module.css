@@ -23,7 +23,10 @@
 }
 .label {
   display: block;
-  font-size: large;
+  font-size: 18px;
 }
 .percentage {
+  font-size: 14px;
+  color: rgb(62, 38, 199);
+  font-weight: 700;
 }
