@@ -1,31 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-const styles = {
-  option: {
-    display: "inline-block",
-    width: 60,
-    height: 60,
-  },
-};
+import styles from "./Statistics.module.css";
 
 const Statistics = ({ stats, title }) => {
   return (
-    <section className="statistics">
+    <section className={styles.statistics}>
       <h1>Секция статистики</h1>
-      <h2 className="title">{title}</h2>
-      <ul className="stat-list">
+      <h2 className={styles.title}>{title}</h2>
+      <ul className={styles.statlist}>
         {stats.map(({ id, label, percentage }) => (
           <li
-            className="item"
+            className={styles.item}
             key={id}
             style={{
-              ...styles.option,
               backgroundColor: getRandomColor(),
             }}
           >
-            <span className="label">{label}</span>
-            <span className="percentage">{percentage}%</span>
+            <span className={styles.label}>{label}</span>
+            <span className={styles.percentage}>{percentage}%</span>
           </li>
         ))}
       </ul>

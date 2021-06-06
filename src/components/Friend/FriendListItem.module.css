@@ -1,0 +1,31 @@
+.item {
+  font-size: 14px;
+  width: 100px;
+  /* display: inline-block; */
+}
+.status {
+}
+.avatar {
+  border: 1px solid rgb(13, 238, 13);
+  background-color: white;
+}
+.name {
+  font-size: 14px;
+  color: rgb(11, 150, 214);
+  font-weight: 700;
+}
+.friendIsOnline {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(98, 168, 27);
+}
+
+.friendIsOffline {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(167, 163, 163);
+}

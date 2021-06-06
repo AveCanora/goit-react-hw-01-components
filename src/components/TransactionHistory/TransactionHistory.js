@@ -1,11 +1,11 @@
 import React from "react";
-
+import styles from "./TransactionHistory.module.css";
 const TransactionHistory = ({ items }) => (
-  <div>
+  <div className={styles.container}>
     <h1>История транзакций</h1>
-    <table className="transaction-history">
+    <table className={styles.transactionhistory}>
       <thead>
-        <tr>
+        <tr className={styles.tr}>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>
